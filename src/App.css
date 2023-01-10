@@ -143,3 +143,27 @@ img {
     background: var(--secondaryColor);
     overflow: hidden;
 }
+.underline span{
+  top: 0;
+  left: 10px;
+  width: 10px;
+  border-radius: 10px;
+  position: absolute;
+  background: var(--textColor);
+  animation: moveLine 2s linear infinite;
+}
+@keyframes moveLine {
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100px;
+  }
+}
+/* Done with default styling */
+
+/* Body styling */
+body{
+  background: var(--BgColor);
+  color: white;
+}

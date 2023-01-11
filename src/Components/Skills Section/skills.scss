@@ -11,3 +11,95 @@
     --headerHeight: 3rem;
 }
 
+.skills{
+    .skillsContainer{
+        gap: 2rem 0;
+        padding: 1rem 0;
+
+        .skillGroup{
+            .groupTitle{
+                color: var(--textColor);
+                .subTitle{
+                    display: block;
+                    padding: .3rem 0 1rem;
+                    color:var(--secondaryColor);
+                    font-weight: 600;
+                }
+            }
+
+            .generalSkills{
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                grid-template-columns: repeat(3,1fr);//at some width we shall have a repeat of 4,1fr
+                gap: 1rem;
+
+                .singleSkill{
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+
+                    .iconBox{
+                        position: relative;
+                        height: 70px;
+                        width: 50px;
+                        background: var(--projectCardColor);
+                        border: 2px solid var(--secondaryColor);
+                        border-radius: 3rem;
+                        justify-content: center;
+                        overflow: hidden;
+                        z-index: 500;
+                        align-items: center;
+                        .icon{
+                            font-size: 28px;
+                            z-index: 500 ;
+                        }
+                    }
+
+                    .iconBox::before{
+                        content: '';
+                        height: 0;
+                        width: 100%;
+                        background: var(--primaryHover);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        transition: .2s;
+                    }
+
+                    .iconBox::after{
+                        content: '';
+                        height: 0;
+                        width: 100%;
+                        background: var(--BgColor);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        transition: .5s;
+                    }
+
+                    .iconBox:hover{
+                        color: var(--textColor);
+                        border: 2px solid var(--primaryColor);
+                        .icon{
+                            color: var(--primaryColor);
+                        }
+                    }
+
+                    .iconBox:hover::before,.iconBox:hover::after{
+                        height: 100%;
+                    }
+
+                    .skillName{
+                        padding-top: .3rem;
+                        text-align: center;
+                        font-weight: 600;
+                        color: var(--secondaryColor);
+                    }
+                }
+            }
+        }
+    }
+}

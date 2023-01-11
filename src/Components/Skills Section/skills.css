@@ -89,4 +89,53 @@
   text-align: center;
   font-weight: 600;
   color: var(--secondaryColor);
+}
+
+@media screen and (min-width: 480px) {
+  .skills .skillsContainer .skillGroup .generalSkills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 640px) {
+  .skills .skillsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: center;
+  }
+  .skills .skillsContainer .skillGroup .generalSkills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 769px) {
+  .skills {
+    width: 70%;
+    margin: auto;
+  }
+  .skills .skillsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  .skills .skillsContainer .skillGroup .generalSkills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1240px) {
+  .skills .skillsContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  .skills .skillsContainer .skillGroup .generalSkills {
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 5rem;
+    row-gap: 1rem;
+  }
+  .skills .skillsContainer .skillGroup .generalSkills .singleSkill {
+    align-items: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
 }/*# sourceMappingURL=skills.css.map */

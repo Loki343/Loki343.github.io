@@ -52,4 +52,23 @@
   overflow: hidden;
   display: grid;
   border: 2px dashed var(--primaryColor);
+}
+
+@media screen and (min-width: 769px) {
+  .about {
+    width: 70%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 960px) {
+  .about .sectionContent {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .about .sectionContent .textSection h4 {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=about.css.map */

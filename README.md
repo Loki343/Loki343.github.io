@@ -1,6 +1,51 @@
-let data = [
+const data = [
     {
-        
+        id:1,
+        image:project1_image,
+        liveLink:'netlify.con',
+        github:'github.com',
+        title:'Nykaa Cosmetics',
+        desc:'This is an Indian Cosmetics selling website which is the first unicorn headed by woman.Founder is Priyanka Mathur.',
+        tech_1:"HTML5",
+        tech_2:"CSS3",
+        tech_3:"VanillaJS",
+        tech_4:"ReactJS"        
+    },
+    {
+        id:2,
+        image:project1_image,
+        liveLink:'netlify.con',
+        github:'github.com',
+        title:'Nykaa Cosmetics',
+        desc:'This is an Indian Cosmetics selling website which is the first unicorn headed by woman.Founder is Priyanka Mathur.',
+        tech_1:"HTML5",
+        tech_2:"CSS3",
+        tech_3:"VanillaJS",
+        tech_4:"ReactJS"        
+    },
+    {
+        id:3,
+        image:project1_image,
+        liveLink:'netlify.con',
+        github:'github.com',
+        title:'Nykaa Cosmetics',
+        desc:'This is an Indian Cosmetics selling website which is the first unicorn headed by woman.Founder is Priyanka Mathur.',
+        tech_1:"HTML5",
+        tech_2:"CSS3",
+        tech_3:"VanillaJS",
+        tech_4:"ReactJS"        
+    },
+    {
+        id:4,
+        image:project1_image,
+        liveLink:'netlify.con',
+        github:'github.com',
+        title:'Nykaa Cosmetics',
+        desc:'This is an Indian Cosmetics selling website which is the first unicorn headed by woman.Founder is Priyanka Mathur.',
+        tech_1:"HTML5",
+        tech_2:"CSS3",
+        tech_3:"VanillaJS",
+        tech_4:"ReactJS"        
     }
 ]
 

@@ -5,31 +5,30 @@ import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
   //code to toggle on and off the navbar at small width
-  const [active,setActive] = useState('navBar');
+  const [active, setActive] = useState("navBar");
 
   //this will bring in the navbar from the top
-  const showNavBar = ()=>{
-    setActive('navBar activeNavbar');
-  }
+  const showNavBar = () => {
+    setActive("navBar activeNavbar");
+  };
 
   //this will hide the navbar again.
-  const removeNavBar = ()=>{
-    setActive('navBar');
-  }
+  const removeNavBar = () => {
+    setActive("navBar");
+  };
 
   //code statement to add a background color to the header
-  const [activeHeader,setActiveHeader] = useState('header');
+  const [activeHeader, setActiveHeader] = useState("header");
 
-  const addBg = ()=> {
-    if(window.scrollY >= 10){
-      setActiveHeader('header activeHeader')
+  const addBg = () => {
+    if (window.scrollY >= 10) {
+      setActiveHeader("header activeHeader");
+    } else {
+      setActiveHeader("header");
     }
-    else{
-      setActiveHeader('header');
-    }
-  }
+  };
 
-  window.addEventListener('scroll',addBg)
+  window.addEventListener("scroll", addBg);
   return (
     <header className={activeHeader}>
       <div className="logoDiv">
@@ -52,17 +51,22 @@ const Navbar = () => {
           </li>
           <li className="navItem">
             <a href="#skills" className="navLink">
-            <span className="headerNumber">2.</span>Skills
+              <span className="headerNumber">2.</span>Skills
             </a>
           </li>
           <li className="navItem">
             <a href="#projects" className="navLink">
-            <span className="headerNumber">3.</span>Projects
+              <span className="headerNumber">3.</span>Projects
             </a>
           </li>
           <li className="navItem">
             <a href="#github" className="navLink">
-            <span className="headerNumber">4.</span>GitHub
+              <span className="headerNumber">4.</span>GitHub
+            </a>
+          </li>
+          <li className="navItem">
+            <a href="#contact" className="navLink">
+              <span className="headerNumber">5.</span>Contact
             </a>
           </li>
           <button className="btn">

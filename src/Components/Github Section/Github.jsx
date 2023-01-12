@@ -30,17 +30,28 @@ const Github = () => {
         </h5>
       </div>
 
-      <GitHubCalendar
-        style={{ margin: "auto" }}
-        username="Loki343"
-        // transformData={selectLastHalfYear}
-        blockSize={40}
-        fontSize={20}
-    
-      >
-        <ReactTooltip delayShow={20} html />
-      </GitHubCalendar>
+      <div>
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
 
+      <div className="streak">
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Loki343&theme=black-ice&hide_border=true&stroke=0000&background=2C2C6C"
+          alt="git-streak"
+        />
+      </div>
+      <div className="calender">
+        <GitHubCalendar
+          style={{ margin: "auto" }}
+          username="Loki343"
+          // transformData={selectLastHalfYear}
+          blockSize={40}
+          fontSize={20}
+        >
+          <ReactTooltip delayShow={20} html />
+        </GitHubCalendar>
+      </div>
     </div>
   );
 };

@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.29f3db14.css",
-    "main.js": "/static/js/main.9ffd9271.js",
+    "main.css": "/static/css/main.4c79b477.css",
+    "main.js": "/static/js/main.c76b2db9.js",
     "static/media/Kausik_image.jpg": "/static/media/Kausik_image.5877c1a0fd50f3808406.jpg",
-    "static/media/project1_image.png": "/static/media/project1_image.768bc1ec5184827c9022.png",
+    "static/media/project2_image.png": "/static/media/project2_image.12975b73644fdfb17a9a.png",
+    "static/media/project4_image.png": "/static/media/project4_image.19a6b55d5ca9122356f3.png",
+    "static/media/project1_image.png": "/static/media/project1_image.c8d973f80876cdd6be39.png",
+    "static/media/project3_image.png": "/static/media/project3_image.d403ef19096cd92e18e8.png",
     "index.html": "/index.html",
-    "main.29f3db14.css.map": "/static/css/main.29f3db14.css.map",
-    "main.9ffd9271.js.map": "/static/js/main.9ffd9271.js.map"
+    "main.4c79b477.css.map": "/static/css/main.4c79b477.css.map",
+    "main.c76b2db9.js.map": "/static/js/main.c76b2db9.js.map"
   },
   "entrypoints": [
-    "static/css/main.29f3db14.css",
-    "static/js/main.9ffd9271.js"
+    "static/css/main.4c79b477.css",
+    "static/js/main.c76b2db9.js"
   ]
 }

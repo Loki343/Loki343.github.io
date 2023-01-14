@@ -51,10 +51,10 @@
 
     .aboutImgDiv{
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin: 2rem auto 3rem;
-        border-radius: 50%;
+        border-radius: 20%;
         overflow: hidden;
         display: grid;
         border: 2px dashed var(--primaryColor);
@@ -67,6 +67,9 @@
         // }
     }
   }
+}
+.edu{
+  color: var(--primaryColor);
 }
 
 //Media Queries ------------------->

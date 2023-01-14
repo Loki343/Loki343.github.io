@@ -49,8 +49,6 @@
 .projects .projectContainer .singleProject .imgDiv img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
   border-radius: 5px;
 }
 .projects .projectContainer .singleProject .prjectTitle {

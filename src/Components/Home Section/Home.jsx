@@ -1,8 +1,7 @@
 import React from "react";
 import "./home.css";
-import { AiFillGithub } from "react-icons/ai";
-import { FiTwitter } from "react-icons/fi";
-import { FiYoutube } from "react-icons/fi";
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { FiFacebook } from "react-icons/fi";
 import { TbArrowBigRightLines } from "react-icons/tb";
 import { TbChevronsDown } from "react-icons/tb";
 
@@ -12,14 +11,14 @@ const Home = () => {
       {/* this div will only visible at wider screen */}
       <div className='leftIcons'>
       <div className="socials grid">
-        <a href="/" target='_blank'>
+        <a href="https://github.com/Loki343" rel="noreferrer" target='_blank'>
           <AiFillGithub className='icon'/>
         </a>
-        <a href="/" target='_blank'>
-          <FiTwitter className='icon'/>
+        <a href="https://www.linkedin.com/in/kausik-bhaumik-617179229/" target='_blank' rel="noreferrer">
+          <AiOutlineLinkedin className='icon'/>
         </a>
-        <a href="/" target='_blank'>
-          <FiYoutube className='icon'/>
+        <a href="https://www.facebook.com/profile.php?id=100006364819489" target='_blank' rel="noreferrer">
+          <FiFacebook className='icon'/>
         </a>
         <div className="line"></div>
       </div>
@@ -30,7 +29,7 @@ const Home = () => {
         <span className="introText">Hi my name is,</span>
         <h1 className="title">Kausik Bhaumik</h1>
         <span className="subTitle">
-          I develop scalable web based application and software
+          Fullstack-Web-Developer 
         </span>
         <p className="homeParagraph">
           I code within required coding standarts and styles to serve the exact
@@ -56,7 +55,7 @@ const Home = () => {
       <div className="rightEmail">
         <div>
           <div className="emailAddress">
-            <a href="https://mailto:kausikbhaumik42@gmail.com" target="_blank">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
               kausikbhaumik42@gmail.com
             </a>
           </div>

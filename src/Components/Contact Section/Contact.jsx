@@ -1,10 +1,12 @@
 import React,{useRef} from "react";
 import "./contact.css";
-import {BsInstagram} from "react-icons/bs";
+import { BsLinkedin} from "react-icons/bs";
 import { TbArrowBigRightLines } from "react-icons/tb";
+import { GrFacebook } from "react-icons/gr";
 
 //for emailJS ------------>
 import emailjs from 'emailjs-com';
+import { SiWhatsapp } from 'react-icons/si';
 
 const Contact = () => {
 
@@ -35,15 +37,14 @@ const Contact = () => {
           <div className="cards grid">
             <div className="card">
               <div>
-                <BsInstagram className='icon'/>
+                <SiWhatsapp className='icon'/>
               </div>
-              <h4>Instagram</h4>
+              <h4>WhatsApp</h4>
               <span className="userName">
-                @kausik303
+                @+917980710518
               </span>
-
               <div>
-                <a href="instagram link here" target='_blank' className="flex">
+                <a href="#contact" className="flex">
                   Send Message <TbArrowBigRightLines className='icon'/>
                 </a>
               </div>
@@ -51,15 +52,14 @@ const Contact = () => {
 
             <div className="card">
               <div>
-                <BsInstagram className='icon'/>
+                <BsLinkedin className='icon'/>
               </div>
-              <h4>Instagram</h4>
+              <h4>Linkedin</h4>
               <span className="userName">
-                @kausik303
+                @Kausik Bhaumik
               </span>
-
               <div>
-                <a href="instagram link here" target='_blank' className="flex">
+                <a href="https://www.linkedin.com/in/kausik-bhaumik-617179229/" target='_blank' className="flex" rel="noreferrer">
                   Send Message <TbArrowBigRightLines className='icon'/>
                 </a>
               </div>
@@ -67,15 +67,14 @@ const Contact = () => {
 
             <div className="card">
               <div>
-                <BsInstagram className='icon'/>
+                <GrFacebook className='icon'/>
               </div>
-              <h4>Instagram</h4>
+              <h4>Facebook</h4>
               <span className="userName">
-                @kausik303
+                @Kausik Bhaumik (Kush)
               </span>
-
               <div>
-                <a href="instagram link here" target='_blank' className="flex">
+                <a href="https://www.facebook.com/profile.php?id=100006364819489" target='_blank' className="flex" rel="noreferrer">
                   Send Message <TbArrowBigRightLines className='icon'/>
                 </a>
               </div>
@@ -85,7 +84,7 @@ const Contact = () => {
         </div>
 
         <div className="form grid">
-          <h3>Send me an email</h3>
+          <h3>Send me an email <br />kausikbhaumik42@gmail.com</h3>
           <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Enter your Name" />
           <input type="email" name="email" placeholder="Enter your Email" />

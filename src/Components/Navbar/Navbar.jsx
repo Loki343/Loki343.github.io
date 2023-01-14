@@ -70,7 +70,13 @@ const Navbar = () => {
             </a>
           </li>
           <button className="btn">
-            <a href="https://drive.google.com/file/d/1a8it3HJ8UdMwCq5drbuR9JYZxdC1IBfU/view?usp=share_link" target="_blank" rel="noreferrer">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1_jBz8Cb7kXarFpHIYVg4-AaaXOBGl0HJ/view?usp=share_link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">

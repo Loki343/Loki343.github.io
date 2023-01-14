@@ -44,7 +44,7 @@ const Contact = () => {
                 @+917980710518
               </span>
               <div>
-                <a href="#contact" className="flex">
+                <a href="https://api.whatsapp.com/send/?phone=917980710518&text&type=phone_number&app_absent=0" className="flex">
                   Send Message <TbArrowBigRightLines className='icon'/>
                 </a>
               </div>

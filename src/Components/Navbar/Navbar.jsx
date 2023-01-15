@@ -71,7 +71,7 @@ const Navbar = () => {
           </li>
           <button className="btn">
             <a
-              href="https://drive.google.com/file/d/1_jBz8Cb7kXarFpHIYVg4-AaaXOBGl0HJ/view?usp=share_link"
+              href="https://drive.google.com/file/d/1lRE7_kUXt-3xScFyWIY0ZQS1HbWXnJC7/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8ae5f1b.css",
+    "main.css": "/static/css/main.1c7b11b1.css",
     "main.js": "/static/js/main.e6873f5e.js",
     "static/media/Kausik_image.jpg": "/static/media/Kausik_image.5877c1a0fd50f3808406.jpg",
     "static/media/project2_image.png": "/static/media/project2_image.12975b73644fdfb17a9a.png",
@@ -8,11 +8,11 @@
     "static/media/project1_image.png": "/static/media/project1_image.c8d973f80876cdd6be39.png",
     "static/media/project3_image.png": "/static/media/project3_image.d403ef19096cd92e18e8.png",
     "index.html": "/index.html",
-    "main.a8ae5f1b.css.map": "/static/css/main.a8ae5f1b.css.map",
+    "main.1c7b11b1.css.map": "/static/css/main.1c7b11b1.css.map",
     "main.e6873f5e.js.map": "/static/js/main.e6873f5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ae5f1b.css",
+    "static/css/main.1c7b11b1.css",
     "static/js/main.e6873f5e.js"
   ]
 }

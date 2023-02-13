@@ -32,12 +32,12 @@ const Github = () => {
         <div className="streak-twice grid">
           <img
             className="language"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Loki343&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2C2C6C"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Loki343&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true"
             alt="streak"
           />
           <img
             className="streak"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Loki343&theme=black-ice&hide_border=true&stroke=0000&background=2C2C6C"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Loki343&theme=black-ice&hide_border=true&stroke=0000"
             alt="language"
           />
         </div>

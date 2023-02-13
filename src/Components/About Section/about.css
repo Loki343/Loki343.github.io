@@ -1,16 +1,14 @@
-/* colors and default size */
 :root {
-  --primaryColor: #00eaff;
-  --primaryHover: hsl(185, 92%, 41%);
+  --primaryColor: #ff00d4;
+  --primaryHover: #bb0d9e;
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: #031a30;
-  --formColor: rgb(2, 15, 29);
-  --projectCardColor: #072340;
+  --BgColor: #310229;
+  --formColor: #430439;
+  --projectCardColor: #20021b;
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
-
 .about .sectionContent .textSection h4 {
   color: var(--secondaryColor);
   font-size: 1.1rem;
@@ -25,7 +23,6 @@
   justify-content: center;
   margin-top: 2rem;
   background: var(--primaryColor);
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding: 10px 15px;
@@ -51,7 +48,7 @@
   border-radius: 20%;
   overflow: hidden;
   display: grid;
-  border: 2px dashed var(--primaryColor);
+  border: 2px solid var(--primaryColor);
 }
 
 .edu {

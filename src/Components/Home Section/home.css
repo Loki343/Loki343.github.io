@@ -1,12 +1,11 @@
-/* colors and default size */
 :root {
-  --primaryColor: #00eaff;
-  --primaryHover: hsl(185, 92%, 41%);
+  --primaryColor: #ff00d4;
+  --primaryHover: #bb0d9e;
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: #031a30;
-  --formColor: rgb(2, 15, 29);
-  --projectCardColor: #072340;
+  --BgColor: #310229;
+  --formColor: #430439;
+  --projectCardColor: #20021b;
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -71,25 +70,7 @@
   font-size: 1.3rem;
   margin-left: 0.6rem;
   color: var(--primaryColor);
-  -webkit-animation: move 0.5s infinite;
-          animation: move 0.5s infinite;
-}
-@-webkit-keyframes move {
-  0% {
-    transform: translateY(5px);
-  }
-  25% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(5px);
-  }
-  75% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(5px);
-  }
+  animation: move 0.5s infinite;
 }
 @keyframes move {
   0% {

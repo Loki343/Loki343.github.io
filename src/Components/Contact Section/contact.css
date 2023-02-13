@@ -1,12 +1,11 @@
-/* colors and default size */
 :root {
-  --primaryColor: #00eaff;
-  --primaryHover: hsl(185, 92%, 41%);
+  --primaryColor: #ff00d4;
+  --primaryHover: #bb0d9e;
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: #031a30;
-  --formColor: rgb(2, 15, 29);
-  --projectCardColor: #072340;
+  --BgColor: #310229;
+  --formColor: #430439;
+  --projectCardColor: #20021b;
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -79,7 +78,8 @@
   width: 100%;
   text-align: center;
 }
-.contact .contactContainer .form form input, .contact .contactContainer .form form textarea {
+.contact .contactContainer .form form input,
+.contact .contactContainer .form form textarea {
   height: 1rem;
   width: 90%;
   padding: 1.5rem 0.5rem;
@@ -95,11 +95,8 @@
   color: var(--secondaryColor);
   opacity: 0.5;
 }
-.contact .contactContainer .form form input:-ms-input-placeholder, .contact .contactContainer .form form textarea:-ms-input-placeholder {
-  color: var(--secondaryColor);
-  opacity: 0.5;
-}
-.contact .contactContainer .form form input::placeholder, .contact .contactContainer .form form textarea::placeholder {
+.contact .contactContainer .form form input::placeholder,
+.contact .contactContainer .form form textarea::placeholder {
   color: var(--secondaryColor);
   opacity: 0.5;
 }

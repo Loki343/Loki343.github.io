@@ -4,9 +4,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <section className='footer'>
-      <h3>
+      <h4>
         Developed by Kausik@ | All rights reserved@2022
-      </h3>
+      </h4>
     </section>
   )
 }

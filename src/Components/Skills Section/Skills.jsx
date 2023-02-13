@@ -16,7 +16,7 @@ import { GiMineWagon, GiOpenBook } from "react-icons/gi";
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills container section">
+    <section id="skills" className="skills container section nav-link">
       <div className="sectionTitle">
         <span className="titleNumber">02.</span>
         <h5 className="titleText">

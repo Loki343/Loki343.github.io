@@ -67,7 +67,7 @@ const data = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects container section">
+    <section id="projects" className="projects container section nav-link">
       <div className="sectionTitle">
         <span className="titleNumber">03.</span>
         <h5 className="titleText">

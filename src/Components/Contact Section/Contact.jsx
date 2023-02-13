@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact section container">
+    <section id="contact" className="contact section container nav-link">
       <div className="sectionTitle">
         <span className="titleNumber">05.</span>
         <h5 className="titleText">

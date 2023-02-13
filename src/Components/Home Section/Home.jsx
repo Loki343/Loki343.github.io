@@ -5,7 +5,7 @@ import { TbChevronsDown } from "react-icons/tb";
 
 const Home = () => {
   return (
-    <section id="home" className="home section">
+    <section id="home" className="home section nav-link">
       {/* homeContent */}
       <div className="container homeContainer">
         <span className="introText">Hi my name is,</span>

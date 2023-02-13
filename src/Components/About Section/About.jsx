@@ -5,7 +5,7 @@ import img from "../../Assets/Kausik_image.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="about section container">
+    <section id="about" className="about section container nav-link">
       <div className="sectionTitle">
         <span className="titleNumber">01.</span>
         <h5 className="titleText">

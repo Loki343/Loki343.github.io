@@ -30,7 +30,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", addBg);
   return (
-    <header className={activeHeader}>
+    <header id="nav-menu" className={activeHeader}>
       <div className="logoDiv">
         <h1 className="logo">
           <a href="#home">KB.</a>

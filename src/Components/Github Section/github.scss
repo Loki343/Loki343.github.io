@@ -1,0 +1,33 @@
+:root {
+    --primaryColor: #a10587;
+    --primaryHover: #760764;
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #310229;
+    --formColor: #430439;
+    --projectCardColor: #20021b;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+  }
+
+.github{
+    .streak-twice{
+        width: 100%;
+        gap: 1rem;
+        .language{
+            width: 60%;
+            margin: auto;
+        }
+        .streak{
+            width: 70%;
+            margin: auto;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1445px) {
+    .streak-twice{
+        display: flex;
+    }
+}

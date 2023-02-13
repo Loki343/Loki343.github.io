@@ -41,32 +41,32 @@ const Navbar = () => {
         <ul onClick={removeNavBar} className="navLists">
           <li className="navItem">
             <a href="#home" className="navLink">
-              <span className="headerNumber">0.</span>Home
+              Home
             </a>
           </li>
           <li className="navItem">
             <a href="#about" className="navLink">
-              <span className="headerNumber">1.</span>About
+              About
             </a>
           </li>
           <li className="navItem">
             <a href="#skills" className="navLink">
-              <span className="headerNumber">2.</span>Skills
+              Skills
             </a>
           </li>
           <li className="navItem">
             <a href="#projects" className="navLink">
-              <span className="headerNumber">3.</span>Projects
+              Projects
             </a>
           </li>
           <li className="navItem">
             <a href="#github" className="navLink">
-              <span className="headerNumber">4.</span>GitHub
+              GitHub
             </a>
           </li>
           <li className="navItem">
             <a href="#contact" className="navLink">
-              <span className="headerNumber">5.</span>Contact
+              Contact
             </a>
           </li>
           <button className="btn">

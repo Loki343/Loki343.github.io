@@ -1,3 +1,4 @@
+/* colors and default size */
 :root {
   --primaryColor: #a10587;
   --primaryHover: #760764;
@@ -10,21 +11,18 @@
   --headerHeight: 3rem;
 }
 
-.github .streak-twice {
+.footer {
   width: 100%;
-  gap: 1rem;
-}
-.github .streak-twice .language {
-  width: 60%;
-  margin: auto;
-}
-.github .streak-twice .streak {
-  width: 70%;
-  margin: auto;
-}
+  text-align: center;
+  background: var(--projectCardColor);
+  margin-top: 1rem;
+  padding: 1rem 0;
 
-@media screen and (min-width: 1445px) {
-  .streak-twice {
-    display: flex;
+  span {
+    text-align: center;
+    color: var(--secondaryColor);
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 600;
   }
-}/*# sourceMappingURL=github.css.map */
+}

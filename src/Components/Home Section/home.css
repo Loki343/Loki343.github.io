@@ -1,6 +1,7 @@
+/* colors and default size */
 :root {
-  --primaryColor: #ff00d4;
-  --primaryHover: #bb0d9e;
+  --primaryColor: #a10587;
+  --primaryHover: #760764;
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
   --BgColor: #310229;
@@ -89,7 +90,8 @@
     transform: translateY(5px);
   }
 }
-.home .leftIcons, .home .rightEmail {
+.home .leftIcons,
+.home .rightEmail {
   display: none;
 }
 
@@ -128,18 +130,22 @@
     width: 70%;
     margin: auto;
   }
-  .home .leftIcons, .home .rightEmail {
+  .home .leftIcons,
+  .home .rightEmail {
     display: block;
     position: fixed;
   }
-  .home .leftIcons .icon, .home .rightEmail .icon {
+  .home .leftIcons .icon,
+  .home .rightEmail .icon {
     color: var(--secondaryColor);
   }
-  .home .leftIcons a, .home .rightEmail a {
+  .home .leftIcons a,
+  .home .rightEmail a {
     font-weight: 600;
     color: var(--secondaryColor);
   }
-  .home .leftIcons .line, .home .rightEmail .line {
+  .home .leftIcons .line,
+  .home .rightEmail .line {
     margin: auto;
     content: "";
     background: var(--secondaryColor);

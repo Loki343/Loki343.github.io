@@ -29,7 +29,7 @@ const About = () => {
             accessible component-based web pages and systems. <br />
             Ability to deliver quality results while collaborating in rapidly
             changing work environments and team compositions. <br /> A
-            passioniate person willing to learn more technologies.
+            passioniate person willing to learn more technologies
             <br />
             <br />
             <h3>

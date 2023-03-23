@@ -1,12 +1,12 @@
 /* colors and default size */
 :root {
-  --primaryColor: #a10587;
-  --primaryHover: #760764;
+  --primaryColor: #00eaff;
+  --primaryHover: hsl(185, 92%, 41%);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: #310229;
-  --formColor: #430439;
-  --projectCardColor: #20021b;
+  --BgColor: #031a30;
+  --formColor: rgb(2, 15, 29);
+  --projectCardColor: #072340;
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -71,7 +71,25 @@
   font-size: 1.3rem;
   margin-left: 0.6rem;
   color: var(--primaryColor);
-  animation: move 0.5s infinite;
+  -webkit-animation: move 0.5s infinite;
+          animation: move 0.5s infinite;
+}
+@-webkit-keyframes move {
+  0% {
+    transform: translateY(5px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 @keyframes move {
   0% {
@@ -90,8 +108,7 @@
     transform: translateY(5px);
   }
 }
-.home .leftIcons,
-.home .rightEmail {
+.home .leftIcons, .home .rightEmail {
   display: none;
 }
 
@@ -130,22 +147,18 @@
     width: 70%;
     margin: auto;
   }
-  .home .leftIcons,
-  .home .rightEmail {
+  .home .leftIcons, .home .rightEmail {
     display: block;
     position: fixed;
   }
-  .home .leftIcons .icon,
-  .home .rightEmail .icon {
+  .home .leftIcons .icon, .home .rightEmail .icon {
     color: var(--secondaryColor);
   }
-  .home .leftIcons a,
-  .home .rightEmail a {
+  .home .leftIcons a, .home .rightEmail a {
     font-weight: 600;
     color: var(--secondaryColor);
   }
-  .home .leftIcons .line,
-  .home .rightEmail .line {
+  .home .leftIcons .line, .home .rightEmail .line {
     margin: auto;
     content: "";
     background: var(--secondaryColor);

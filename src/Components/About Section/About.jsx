@@ -5,7 +5,7 @@ import img from "../../Assets/Kausik_image.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="about section container nav-link">
+    <section id="about" className="about section container">
       <div className="sectionTitle">
         <span className="titleNumber">01.</span>
         <h5 className="titleText">
@@ -38,10 +38,16 @@ const About = () => {
               1. Fullstack-Developer (Masai School@2023)
               <br />
               2. Bachelor of Science (Calcutta Univercity@2019)
-              <br />
-              3. Higher Secondary (WBBSE@2016)
             </h3>
-            
+            <h3>
+            <span className="edu">Experience:</span> 
+              <br />
+              1. 1200+ hours of coding
+              <br />
+              2. 300+ Problems of DSA
+              <br />
+              3. 1+ years of working as associate in flipkart hub
+            </h3>
           </h4>
 
           <div className="aboutBtn">

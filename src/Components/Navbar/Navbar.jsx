@@ -30,7 +30,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", addBg);
   return (
-    <header id="nav-menu" className={activeHeader}>
+    <header className={activeHeader}>
       <div className="logoDiv">
         <h1 className="logo">
           <a href="#home">KB.</a>
@@ -41,32 +41,32 @@ const Navbar = () => {
         <ul onClick={removeNavBar} className="navLists">
           <li className="navItem">
             <a href="#home" className="navLink">
-              Home
+              <span className="headerNumber">0.</span>Home
             </a>
           </li>
           <li className="navItem">
             <a href="#about" className="navLink">
-              About
+              <span className="headerNumber">1.</span>About
             </a>
           </li>
           <li className="navItem">
             <a href="#skills" className="navLink">
-              Skills
+              <span className="headerNumber">2.</span>Skills
             </a>
           </li>
           <li className="navItem">
             <a href="#projects" className="navLink">
-              Projects
+              <span className="headerNumber">3.</span>Projects
             </a>
           </li>
           <li className="navItem">
             <a href="#github" className="navLink">
-              GitHub
+              <span className="headerNumber">4.</span>GitHub
             </a>
           </li>
           <li className="navItem">
             <a href="#contact" className="navLink">
-              Contact
+              <span className="headerNumber">5.</span>Contact
             </a>
           </li>
           <button className="btn">

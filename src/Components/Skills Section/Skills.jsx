@@ -1,22 +1,25 @@
 import React from "react";
 import "./skills.css";
-import { TbBrandReactNative } from "react-icons/tb";
-import {  AiOutlineHtml5, AiOutlineNodeCollapse } from "react-icons/ai";
+import { TbBrandReactNative, TbBrandVercel } from "react-icons/tb";
+import { AiFillGithub, AiOutlineHtml5, AiOutlineNodeCollapse } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
-import {  DiJavascript1 } from "react-icons/di";
+import { DiDatabase, DiJavascript1 } from "react-icons/di";
+import { DiSass } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiCypress, SiMongodb, SiRedux, SiStorybook } from "react-icons/si";
+import { SiCypress, SiMongodb, SiNetlify, SiRedux, SiStorybook } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { SiMaterialui } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandBootstrap } from "react-icons/tb";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiExpress } from "react-icons/si";
-import { FaPeopleCarry } from "react-icons/fa";
+import { FaFileCode, FaLanguage, FaPeopleCarry } from "react-icons/fa";
 import { GiMineWagon, GiOpenBook } from "react-icons/gi";
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills container section nav-link">
+    <section id="skills" className="skills container section">
       <div className="sectionTitle">
         <span className="titleNumber">02.</span>
         <h5 className="titleText">
@@ -54,26 +57,26 @@ const Skills = () => {
               <span className="skillName">CSS3</span>
             </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <DiSass className="icon" />
               </div>
               <span className="skillName">Sass</span>
-            </div> */}
+            </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <TbBrandBootstrap className="icon" />
               </div>
               <span className="skillName">Boot <br /> strap</span>
-            </div> */}
+            </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <SiTailwindcss className="icon" />
               </div>
               <span className="skillName">Tailwind <br /> CSS</span>
-            </div> */}
+            </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
@@ -107,21 +110,21 @@ const Skills = () => {
               <div className="iconBox flex">
                 <TbBrandNextjs className="icon" />
               </div>
-              <span className="skillName">Next<br/>JS</span>
+              <span className="skillName">NextJS</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
                 <SiChakraui className="icon" />
               </div>
-              <span className="skillName">Chakra<br/>UI</span>
+              <span className="skillName">ChakraUI</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
                 <SiMaterialui className="icon" />
               </div>
-              <span className="skillName">Matrial<br/>UI</span>
+              <span className="skillName">MatrialUI</span>
             </div>
 
           </div>
@@ -131,7 +134,7 @@ const Skills = () => {
         <div className="skillGroup">
           <div className="groupTitle">
             <h2 className="title">Back-end Development & Testing-Tools</h2>
-            <span className="subTitle">400+ Hours of Experience</span>
+            <span className="subTitle">300+ Hours of Experience</span>
           </div>
           <div className="generalSkills">
             {/* single skill div */}
@@ -170,7 +173,7 @@ const Skills = () => {
               <span className="skillName">Story <br /> Book</span>
             </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <AiFillGithub className="icon" />
               </div>
@@ -182,9 +185,9 @@ const Skills = () => {
                 <DiDatabase className="icon" />
               </div>
               <span className="skillName">DSA</span>
-            </div> */}
+            </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <FaFileCode className="icon" />
               </div>
@@ -196,14 +199,14 @@ const Skills = () => {
                 <SiNetlify className="icon" />
               </div>
               <span className="skillName">Netlify</span>
-            </div> */}
+            </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <TbBrandVercel className="icon" />
               </div>
               <span className="skillName">Vercel</span>
-            </div> */}
+            </div>
 
             {/* <div className="singleSkill">
               <div className="iconBox flex">
@@ -248,7 +251,7 @@ const Skills = () => {
               <div className="iconBox flex">
                 <GiMineWagon className="icon" />
               </div>
-              <span className="skillName">Creati<br/>-vity</span>
+              <span className="skillName">Creativity</span>
             </div>
 
             <div className="singleSkill">
@@ -258,7 +261,7 @@ const Skills = () => {
               <span className="skillName">Problem <br />Solving</span>
             </div>
 
-            {/* <div className="singleSkill">
+            <div className="singleSkill">
               <div className="iconBox flex">
                 <FaLanguage className="icon" />
               </div>
@@ -270,7 +273,7 @@ const Skills = () => {
                 <FaLanguage className="icon" />
               </div>
               <span className="skillName">English <br />Language</span>
-            </div> */}
+            </div>
 
             {/* <div className="singleSkill">
               <div className="iconBox flex">

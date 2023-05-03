@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.43d06e7b.css",
-    "main.js": "/static/js/main.2efb18a9.js",
+    "main.css": "/static/css/main.4c79b477.css",
+    "main.js": "/static/js/main.2c711a65.js",
     "static/media/Kausik_image.jpg": "/static/media/Kausik_image.5877c1a0fd50f3808406.jpg",
     "static/media/project2_image.png": "/static/media/project2_image.12975b73644fdfb17a9a.png",
-    "static/media/FlipZoneProject.png": "/static/media/FlipZoneProject.16c04387f5a3cba4dfa2.png",
     "static/media/project4_image.png": "/static/media/project4_image.19a6b55d5ca9122356f3.png",
     "static/media/project1_image.png": "/static/media/project1_image.c8d973f80876cdd6be39.png",
-    "static/media/IndiWebMallProject.png": "/static/media/IndiWebMallProject.b9a0a17d699ade7412b2.png",
     "static/media/project3_image.png": "/static/media/project3_image.d403ef19096cd92e18e8.png",
     "index.html": "/index.html",
-    "main.43d06e7b.css.map": "/static/css/main.43d06e7b.css.map",
-    "main.2efb18a9.js.map": "/static/js/main.2efb18a9.js.map"
+    "main.4c79b477.css.map": "/static/css/main.4c79b477.css.map",
+    "main.2c711a65.js.map": "/static/js/main.2c711a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.43d06e7b.css",
-    "static/js/main.2efb18a9.js"
+    "static/css/main.4c79b477.css",
+    "static/js/main.2c711a65.js"
   ]
 }

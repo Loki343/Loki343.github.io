@@ -8,21 +8,6 @@ import { TbChevronsDown } from "react-icons/tb";
 const Home = () => {
   return (
     <section id="home" className="home section">
-      {/* this div will only visible at wider screen */}
-      <div className='leftIcons'>
-      <div className="socials grid">
-        <a href="https://github.com/Loki343" rel="noreferrer" target='_blank'>
-          <AiFillGithub className='icon'/>
-        </a>
-        <a href="https://www.linkedin.com/in/kausik-bhaumik-617179229/" target='_blank' rel="noreferrer">
-          <AiOutlineLinkedin className='icon'/>
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=100006364819489" target='_blank' rel="noreferrer">
-          <FiFacebook className='icon'/>
-        </a>
-        <div className="line"></div>
-      </div>
-      </div>
 
       {/* homeContent */}
       <div className="container homeContainer">

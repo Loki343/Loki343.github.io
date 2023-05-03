@@ -1,7 +1,5 @@
 import React from "react";
 import "./home.css";
-import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
-import { FiFacebook } from "react-icons/fi";
 import { TbArrowBigRightLines } from "react-icons/tb";
 import { TbChevronsDown } from "react-icons/tb";
 
@@ -33,19 +31,6 @@ const Home = () => {
               <TbChevronsDown className="icon" />
             </a>
           </div>
-        </div>
-      </div>
-
-      {/* right div,with email address (will also be visible at a wider screen only) */}
-      <div className="rightEmail">
-        <div>
-          <div className="emailAddress">
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
-              kausikbhaumik42@gmail.com
-            </a>
-          </div>
-
-          <div className="line"></div>
         </div>
       </div>
     </section>

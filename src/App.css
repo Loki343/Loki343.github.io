@@ -3,19 +3,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Advent Pro", sans-serif;
-  transition: 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* colors and default size */
 :root {
-  --primaryColor: #00eaff;
-  --primaryHover: hsl(185, 92%, 41%);
+  --primaryColor: rgb(245,200,59);
+  --primaryHover: rgb(225,123,66);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: #031a30;
+  --BgColor: rgb(112,6,6);
   --formColor: rgb(2, 15, 29);
-  --projectCardColor: #072340;
+  --projectCardColor: rgb(87,3,0);
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }

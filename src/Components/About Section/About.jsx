@@ -3,6 +3,13 @@ import "./about.css";
 import { TbCloudDownload } from "react-icons/tb";
 import img from "../../Assets/Kausik_image.jpg";
 
+function resume() {
+  window.open(
+    "https://drive.google.com/file/d/16KeO14t4SBP6p1ZDksrgGnnCF8WnTxg3/view?usp=sharing",
+    "_blank"
+  );
+}
+
 const About = () => {
   return (
     <section id="about" className="about section container">
@@ -18,8 +25,8 @@ const About = () => {
       </div>
 
       <div className="sectionContent grid">
-        <div className="aboutImgDiv">
-          <img src={img} alt="Kausik Bhaumik" className="aboutImg" />
+        <div className="aboutImgDiv home-img">
+          <img src={img} alt="Kausik Bhaumik" className="aboutImg home-img" />
         </div>
 
         <div className="textSection">
@@ -33,14 +40,14 @@ const About = () => {
             <br />
             <br />
             <h3>
-              <span className="edu">Education:</span> 
+              <span className="edu">Education:</span>
               <br />
               1. Fullstack-Developer (Masai School@2023)
               <br />
               2. Bachelor of Science (Calcutta Univercity@2019)
             </h3>
             <h3>
-            <span className="edu">Experience:</span> 
+              <span className="edu">Experience:</span>
               <br />
               1. 1200+ hours of coding
               <br />
@@ -51,13 +58,15 @@ const About = () => {
           </h4>
 
           <div className="aboutBtn">
-            <a
-              href="Kausik_Bhaumik_Resume.pdf"
-              download="Kausik_Bhaumik_Resume.pdf"
-              className="flex"
-            >
-              Download CV <TbCloudDownload className="icon" />
-            </a>
+            <button className="resume-btn" onClick={resume} id="resume-button-2">
+              <a
+                href="Kausik_Bhaumik_Resume.pdf"
+                download="Kausik_Bhaumik_Resume.pdf"
+                className="flex" id="resume-link-2"
+              >
+                Download CV <TbCloudDownload className="icon" />
+              </a>
+            </button>
           </div>
         </div>
       </div>

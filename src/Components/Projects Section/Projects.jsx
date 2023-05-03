@@ -95,20 +95,20 @@ const Projects = () => {
             demo,
           }) => {
             return (
-              <div key={id} className="singleProject">
+              <div key={id} className="singleProject project-card">
                 <div className="externalLinks flex">
                   <div className="videoIcon">
                     <a href={demo} rel="noreferrer" target="_blank">
                       <AiOutlineVideoCamera className="icon" />
                     </a>
                   </div>
-                  <div className="videoIcon">
-                    <a href={liveLink} rel="noreferrer" target="_blank">
+                  <div className="videoIcon project-deployed-link">
+                    <a className="project-deployed-link" href={liveLink} rel="noreferrer" target="_blank">
                       <SiNetlify className="icon" />
                     </a>
                   </div>
-                  <div className="githubIcon">
-                    <a href={github} rel="noreferrer" target="_blank">
+                  <div className="githubIcon project-github-link">
+                    <a className="project-github-link" href={github} rel="noreferrer" target="_blank">
                       <FiGithub className="icon" />
                     </a>
                   </div>
@@ -120,17 +120,17 @@ const Projects = () => {
                   </a>
                 </div>
 
-                <div className="projectTitle">
-                  <h3>{title}</h3>
+                <div className="projectTitle project-title">
+                  <h3 className="project-title">{title}</h3>
                 </div>
 
-                <div className="desc">{desc}</div>
+                <div className="desc project-description">{desc}</div>
 
-                <div className="technologies flex">
-                  <small>{tech_1}</small>
-                  <small>{tech_2}</small>
-                  <small>{tech_3}</small>
-                  <small>{tech_4}</small>
+                <div className="technologies flex project-tech-stack">
+                  <small className="project-tech-stack">{tech_1}</small>
+                  <small className="project-tech-stack">{tech_2}</small>
+                  <small className="project-tech-stack">{tech_3}</small>
+                  <small className="project-tech-stack">{tech_4}</small>
                 </div>
               </div>
             );

@@ -41,90 +41,90 @@ const Skills = () => {
             <span className="subTitle">1200+ Hours of Experience</span>
           </div>
 
-          <div className="generalSkills">
+          <div className="generalSkills skills-card">
             {/* single skill div */}
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <AiOutlineHtml5 className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <AiOutlineHtml5 className="icon skills-card-img" />
               </div>
-              <span className="skillName">HTML5</span>
+              <span className="skillName skills-card-name">HTML5</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <IoLogoCss3 className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <IoLogoCss3 className="icon skills-card-img" />
               </div>
-              <span className="skillName">CSS3</span>
+              <span className="skillName skills-card-name">CSS3</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <DiSass className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <DiSass className="icon skills-card-img" />
               </div>
-              <span className="skillName">Sass</span>
+              <span className="skillName skills-card-name">Sass</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandBootstrap className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <TbBrandBootstrap className="icon skills-card-img" />
               </div>
-              <span className="skillName">Boot <br /> strap</span>
+              <span className="skillName skills-card-name">Boot <br /> strap</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiTailwindcss className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiTailwindcss className="icon skills-card-img" />
               </div>
-              <span className="skillName">Tailwind <br /> CSS</span>
+              <span className="skillName skills-card-name">Tailwind <br /> CSS</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <DiJavascript1 className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <DiJavascript1 className="icon skills-card-img" />
               </div>
-              <span className="skillName">Java <br />Script </span>
+              <span className="skillName skills-card-name">Java <br />Script </span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <TbBrandReactNative className="icon skills-card-img" />
               </div>
-              <span className="skillName">React <br /> JS</span>
+              <span className="skillName skills-card-name">React <br /> JS</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiRedux className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiRedux className="icon skills-card-img" />
               </div>
-              <span className="skillName">Redux</span>
+              <span className="skillName skills-card-name">Redux</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiTypescript className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiTypescript className="icon skills-card-img" />
               </div>
-              <span className="skillName">Type <br /> Script</span>
+              <span className="skillName skills-card-name">Type <br /> Script</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandNextjs className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <TbBrandNextjs className="icon skills-card-img" />
               </div>
-              <span className="skillName">NextJS</span>
+              <span className="skillName skills-card-name">NextJS</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiChakraui className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiChakraui className="icon skills-card-img" />
               </div>
-              <span className="skillName">ChakraUI</span>
+              <span className="skillName skills-card-name">ChakraUI</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiMaterialui className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiMaterialui className="icon skills-card-img" />
               </div>
-              <span className="skillName">MatrialUI</span>
+              <span className="skillName skills-card-name">MatrialUI</span>
             </div>
 
           </div>
@@ -136,92 +136,77 @@ const Skills = () => {
             <h2 className="title">Back-end Development & Testing-Tools</h2>
             <span className="subTitle">300+ Hours of Experience</span>
           </div>
-          <div className="generalSkills">
+          <div className="generalSkills skills-card">
             {/* single skill div */}
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <IoLogoNodejs className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <IoLogoNodejs className="icon skills-card-img" />
               </div>
-              <span className="skillName">Node <br /> JS</span>
+              <span className="skillName skills-card-name">Node <br /> JS</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiExpress className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiExpress className="icon skills-card-img" />
               </div>
-              <span className="skillName">Express <br /> JS</span>
+              <span className="skillName skills-card-name">Express <br /> JS</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiMongodb className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiMongodb className="icon skills-card-img" />
               </div>
-              <span className="skillName">Mongo <br /> DB</span>
+              <span className="skillName skills-card-name">Mongo <br /> DB</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiCypress className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiCypress className="icon skills-card-img" />
               </div>
-              <span className="skillName">Cypress</span>
+              <span className="skillName skills-card-name">Cypress</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiStorybook className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiStorybook className="icon skills-card-img" />
               </div>
-              <span className="skillName">Story <br /> Book</span>
+              <span className="skillName skills-card-name">Story <br /> Book</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <AiFillGithub className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <AiFillGithub className="icon skills-card-img" />
               </div>
-              <span className="skillName">GitHub</span>
+              <span className="skillName skills-card-name">GitHub</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <DiDatabase className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <DiDatabase className="icon skills-card-img" />
               </div>
-              <span className="skillName">DSA</span>
+              <span className="skillName skills-card-name">DSA</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <FaFileCode className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <FaFileCode className="icon skills-card-img" />
               </div>
-              <span className="skillName">VS Code</span>
+              <span className="skillName skills-card-name">VS Code</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiNetlify className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <SiNetlify className="icon skills-card-img" />
               </div>
-              <span className="skillName">Netlify</span>
+              <span className="skillName skills-card-name">Netlify</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandVercel className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <TbBrandVercel className="icon skills-card-img" />
               </div>
-              <span className="skillName">Vercel</span>
+              <span className="skillName skills-card-name">Vercel</span>
             </div>
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
           </div>
         </div>
 
@@ -231,92 +216,49 @@ const Skills = () => {
             <h2 className="title">Soft-Skills</h2>
             <span className="subTitle">200+ Hours of Experience</span>
           </div>
-          <div className="generalSkills">
+          <div className="generalSkills skills-card">
             {/* single skill div */}
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <FaPeopleCarry className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <FaPeopleCarry className="icon skills-card-img" />
               </div>
-              <span className="skillName">Collabo <br /> -rative</span>
+              <span className="skillName skills-card-name">Collabo <br /> -rative</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <GiOpenBook className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <GiOpenBook className="icon skills-card-img" />
               </div>
-              <span className="skillName">Fast <br />Learner</span>
+              <span className="skillName skills-card-name">Fast <br />Learner</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <GiMineWagon className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <GiMineWagon className="icon skills-card-img" />
               </div>
-              <span className="skillName">Creativity</span>
+              <span className="skillName skills-card-name">Creativity</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <AiOutlineNodeCollapse className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <AiOutlineNodeCollapse className="icon skills-card-img" />
               </div>
-              <span className="skillName">Problem <br />Solving</span>
+              <span className="skillName skills-card-name">Problem <br />Solving</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <FaLanguage className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <FaLanguage className="icon skills-card-img" />
               </div>
-              <span className="skillName">Hindi <br />Language</span>
+              <span className="skillName skills-card-name">Hindi <br />Language</span>
             </div>
 
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <FaLanguage className="icon" />
+            <div className="singleSkill skills-card">
+              <div className="iconBox flex skills-card-img">
+                <FaLanguage className="icon skills-card-img" />
               </div>
-              <span className="skillName">English <br />Language</span>
+              <span className="skillName skills-card-name">English <br />Language</span>
             </div>
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
-            {/* <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReactNative className="icon" />
-              </div>
-              <span className="skillName">React</span>
-            </div> */}
-
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 /* colors and default size */
 :root {
-  --primaryColor: #00eaff;
+  --primaryColor: rgb(245,200,59);
   --primaryHover: rgb(225,123,66);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
@@ -10,7 +10,14 @@
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
-
+.resume-btn{
+  background-color:var(--primaryColor);
+  border: none;
+}
+.resume-btn:hover{
+  color: var(--projectCardColor);
+  background: var(--primaryColor);
+}
 .about .sectionContent .textSection h4 {
   color: var(--secondaryColor);
   font-size: 1.1rem;

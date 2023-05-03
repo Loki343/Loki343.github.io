@@ -3,6 +3,13 @@ import "./navbar.css";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 
+function resume() {
+  window.open(
+    "https://drive.google.com/file/d/16KeO14t4SBP6p1ZDksrgGnnCF8WnTxg3/view?usp=sharing",
+    "_blank"
+  );
+}
+
 const Navbar = () => {
   //code to toggle on and off the navbar at small width
   const [active, setActive] = useState("navBar");
@@ -30,7 +37,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", addBg);
   return (
-    <header className={activeHeader}>
+    <header className={activeHeader} id="nav-menu">
       <div className="logoDiv">
         <h1 className="logo">
           <a href="#home">KB.</a>
@@ -69,11 +76,11 @@ const Navbar = () => {
               <span className="headerNumber">5.</span>Contact
             </a>
           </li>
-          <button className="btn">
+          <button className="btn" onClick={resume} id="resume-button-1">
             <a
-              href="https://drive.google.com/file/d/1lRE7_kUXt-3xScFyWIY0ZQS1HbWXnJC7/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer"
+              href="Kausik_Bhaumik_Resume.pdf"
+              download="Kausik_Bhaumik_Resume.pdf"
+              id="resume-link-1"
             >
               Resume
             </a>

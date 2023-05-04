@@ -1,11 +1,11 @@
 :root {
-  --primaryColor: rgb(245,200,59);
-  --primaryHover: rgb(225,123,66);
+  --primaryColor: rgb(245, 200, 59);
+  --primaryHover: rgb(225, 123, 66);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: rgb(112,6,6);
+  --BgColor: rgb(109, 6, 68);
   --formColor: rgb(2, 15, 29);
-  --projectCardColor: rgb(87,3,0);
+  --projectCardColor: rgb(83, 8, 53);
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -89,7 +89,8 @@
 }
 
 @media screen and (min-width: 769px) {
-  .toggleNavBar, .closeNavBar {
+  .toggleNavBar,
+  .closeNavBar {
     display: none;
   }
   .header {
@@ -133,4 +134,4 @@
   .header .navBar .navLists .navItem {
     padding: 0 2rem;
   }
-}/*# sourceMappingURL=navbar.css.map */
+} /*# sourceMappingURL=navbar.css.map */

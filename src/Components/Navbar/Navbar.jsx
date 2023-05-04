@@ -46,22 +46,22 @@ const Navbar = () => {
 
       <div className={active}>
         <ul onClick={removeNavBar} className="navLists">
-          <li className="navItem">
+          <li className="navItem nav-link home">
             <a href="#home" className="navLink">
               <span className="headerNumber">0.</span>Home
             </a>
           </li>
-          <li className="navItem">
+          <li className="navItem nav-link about">
             <a href="#about" className="navLink">
               <span className="headerNumber">1.</span>About
             </a>
           </li>
-          <li className="navItem">
+          <li className="navItem nav-link skills">
             <a href="#skills" className="navLink">
               <span className="headerNumber">2.</span>Skills
             </a>
           </li>
-          <li className="navItem">
+          <li className="navItem nav-link projects">
             <a href="#projects" className="navLink">
               <span className="headerNumber">3.</span>Projects
             </a>
@@ -71,12 +71,16 @@ const Navbar = () => {
               <span className="headerNumber">4.</span>GitHub
             </a>
           </li>
-          <li className="navItem">
+          <li className="navItem nav-link contact">
             <a href="#contact" className="navLink">
               <span className="headerNumber">5.</span>Contact
             </a>
           </li>
-          <button className="btn" onClick={resume} id="resume-button-1">
+          <button
+            className="btn nav-link resume"
+            onClick={resume}
+            id="resume-button-1"
+          >
             <a
               href="Kausik_Bhaumik_Resume.pdf"
               download="Kausik_Bhaumik_Resume.pdf"

@@ -3,18 +3,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* colors and default size */
 :root {
-  --primaryColor: rgb(245,200,59);
-  --primaryHover: rgb(225,123,66);
+  --primaryColor: rgb(245, 200, 59);
+  --primaryHover: rgb(225, 123, 66);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: rgb(112,6,6);
+  --BgColor: rgb(109, 6, 68);
   --formColor: rgb(2, 15, 29);
-  --projectCardColor: rgb(87,3,0);
+  --projectCardColor: rgb(83, 8, 53);
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -117,33 +117,33 @@ img {
   transition: 0.8s;
 }
 /* section title */
-.sectionTitle{
-    padding: 1rem 0;
-    font-size: 2rem;
-    color: var(--textColor);
-    display: flex;
-    align-content: center;
+.sectionTitle {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--textColor);
+  display: flex;
+  align-content: center;
 }
-.titleNumber{
-    color: var(--primaryColor);
-    margin: 0 .6rem;
-    font-weight: 600;
+.titleNumber {
+  color: var(--primaryColor);
+  margin: 0 0.6rem;
+  font-weight: 600;
 }
-.titleText{
-    position: relative;
-    width: max-content;
+.titleText {
+  position: relative;
+  width: max-content;
 }
-.underline{
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    top: 35px;
-    left: 0;
-    border-radius: 10px;
-    background: var(--secondaryColor);
-    overflow: hidden;
+.underline {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: 35px;
+  left: 0;
+  border-radius: 10px;
+  background: var(--secondaryColor);
+  overflow: hidden;
 }
-.underline span{
+.underline span {
   top: 0;
   left: 10px;
   height: 100%;
@@ -154,68 +154,68 @@ img {
   animation: moveLine 2s linear infinite;
 }
 @keyframes moveLine {
-  0%{
+  0% {
     left: -20px;
   }
-  100%{
+  100% {
     left: 100px;
   }
 }
 /* Done with default styling */
 
 /* Body styling */
-body{
+body {
   background: var(--BgColor);
   color: white;
 }
 
-::selection{
+::selection {
   background-color: var(--primaryColor);
   color: white;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
   background: var(--projectCardColor);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: var(--primaryHover);
   border-radius: 10px;
 }
 
 @media screen and (min-width: 769px) {
-  .container{
+  .container {
     width: 70%;
     margin: auto;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .section{
+  .section {
     padding: 6rem 0 4rem;
   }
 }
 
 @media screen and (min-width: 1240px) {
-  .section{
+  .section {
     padding: 6rem 0 4rem;
   }
 
-  .container{
+  .container {
     width: 70%;
     margin: auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  body{
+  body {
     zoom: 1;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  body{
+  body {
     zoom: 1.7;
   }
 }

@@ -1,12 +1,12 @@
 /* colors and default size */
 :root {
-  --primaryColor: rgb(245,200,59);
-  --primaryHover: rgb(225,123,66);
+  --primaryColor: rgb(245, 200, 59);
+  --primaryHover: rgb(225, 123, 66);
   --secondaryColor: rgb(150, 162, 188);
   --paragraphColor: rgb(127, 127, 175);
-  --BgColor: rgb(112,6,6);
+  --BgColor: rgb(109, 6, 68);
   --formColor: rgb(2, 15, 29);
-  --projectCardColor: rgb(87,3,0);
+  --projectCardColor: rgb(83, 8, 53);
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
@@ -48,11 +48,22 @@
   z-index: 500;
   align-items: center;
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox .icon {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox
+  .icon {
   font-size: 28px;
   z-index: 500;
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox::before {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox::before {
   content: "";
   height: 0;
   width: 100%;
@@ -63,7 +74,12 @@
   z-index: 1;
   transition: 0.2s;
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox::after {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox::after {
   content: "";
   height: 0;
   width: 100%;
@@ -74,14 +90,36 @@
   z-index: 1;
   transition: 0.5s;
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox:hover {
   color: var(--textColor);
   border: 2px solid var(--primaryColor);
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover .icon {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox:hover
+  .icon {
   color: var(--primaryColor);
 }
-.skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover::after {
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox:hover::before,
+.skills
+  .skillsContainer
+  .skillGroup
+  .generalSkills
+  .singleSkill
+  .iconBox:hover::after {
   height: 100%;
 }
 .skills .skillsContainer .skillGroup .generalSkills .singleSkill .skillName {
@@ -138,4 +176,4 @@
     align-content: flex-start;
     align-items: flex-start;
   }
-}/*# sourceMappingURL=skills.css.map */
+} /*# sourceMappingURL=skills.css.map */

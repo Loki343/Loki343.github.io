@@ -32,7 +32,7 @@ const About = () => {
         <div className="textSection">
           <h4 id="user-detail-intro">
             I'm a success-driven, determind fullstack web developer. I have
-            experience using HTML5 CSS3 Sass Javascript ReactJS NodeJS to build
+            experience using HTML5 CSS3 Javascript ReactJS NodeJS ExpressJS MongoDB to build
             accessible component-based web pages and systems. <br />
             Ability to deliver quality results while collaborating in rapidly
             changing work environments and team compositions. <br /> A
@@ -51,9 +51,9 @@ const About = () => {
               <br />
               1. 1200+ hours of coding
               <br />
-              2. 300+ Problems of DSA
+              2. 500+ Problems of DSA
               <br />
-              3. 1+ years of working as associate in flipkart hub
+              3. 3+ months of working as associate in flipkart hub
             </h3>
           </h4>
 

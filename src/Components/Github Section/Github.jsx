@@ -23,7 +23,7 @@ const Github = () => {
           id="github-top-langs"
           style={{ width: "50%" }}
         />
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex" }} >
           <img
             id="github-stats-card"
             className="calender__stats"
@@ -46,7 +46,7 @@ const Github = () => {
           id="github-stats-card"
           username="Loki343"
           blockSize={25}
-          fontSize={16}
+          fontSize={13}
           style={{ marginTop: "15px" }}
         >
           <ReactTooltip delayShow={20} html />

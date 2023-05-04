@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fd0843dc.css",
-    "main.js": "/static/js/main.6190ec0f.js",
+    "main.js": "/static/js/main.ef54a3c0.js",
     "static/media/Kausik_image.jpg": "/static/media/Kausik_image.5877c1a0fd50f3808406.jpg",
-    "static/media/project2_image.png": "/static/media/project2_image.12975b73644fdfb17a9a.png",
-    "static/media/project4_image.png": "/static/media/project4_image.19a6b55d5ca9122356f3.png",
-    "static/media/project1_image.png": "/static/media/project1_image.c8d973f80876cdd6be39.png",
-    "static/media/project3_image.png": "/static/media/project3_image.d403ef19096cd92e18e8.png",
+    "static/media/unicorn.png": "/static/media/unicorn.92e08dc5d3db7da764d3.png",
+    "static/media/flipzone.png": "/static/media/flipzone.e783a59f4ec2982dc43d.png",
+    "static/media/kindmeal.png": "/static/media/kindmeal.5abb2d668a88ae682ea2.png",
+    "static/media/indiwebmall.png": "/static/media/indiwebmall.d9f7c3a68fd3cf668823.png",
+    "static/media/nykaa.png": "/static/media/nykaa.60e3d3e0b5a39887caba.png",
+    "static/media/macmatch.png": "/static/media/macmatch.d918cc0ff4e68d44aa7c.png",
     "index.html": "/index.html",
     "main.fd0843dc.css.map": "/static/css/main.fd0843dc.css.map",
-    "main.6190ec0f.js.map": "/static/js/main.6190ec0f.js.map"
+    "main.ef54a3c0.js.map": "/static/js/main.ef54a3c0.js.map"
   },
   "entrypoints": [
     "static/css/main.fd0843dc.css",
-    "static/js/main.6190ec0f.js"
+    "static/js/main.ef54a3c0.js"
   ]
 }

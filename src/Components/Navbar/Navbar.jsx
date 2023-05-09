@@ -76,19 +76,19 @@ const Navbar = () => {
               <span className="headerNumber">5.</span>Contact
             </a>
           </li>
-          <button
-            className="btn nav-link resume"
-            onClick={resume}
-            id="resume-button-1"
+          <a
+            href="Kausik_Bhaumik_Resume.pdf"
+            download="Kausik_Bhaumik_Resume.pdf"
+            id="resume-link-1"
           >
-            <a
-              href="Kausik_Bhaumik_Resume.pdf"
-              download="Kausik_Bhaumik_Resume.pdf"
-              id="resume-link-1"
+            <button
+              className="btn nav-link resume"
+              onClick={resume}
+              id="resume-button-1"
             >
               Resume
-            </a>
-          </button>
+            </button>
+          </a>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">
           <AiFillCloseCircle className="icon" />

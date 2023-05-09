@@ -32,8 +32,9 @@ const About = () => {
         <div className="textSection">
           <h4 id="user-detail-intro">
             I'm a success-driven, determind fullstack web developer. I have
-            experience using HTML5 CSS3 Javascript ReactJS NodeJS ExpressJS MongoDB to build
-            accessible component-based web pages and systems. <br />
+            experience using HTML5 CSS3 Javascript ReactJS NodeJS ExpressJS
+            MongoDB to build accessible component-based web pages and systems.{" "}
+            <br />
             Ability to deliver quality results while collaborating in rapidly
             changing work environments and team compositions. <br /> A
             passioniate person willing to learn more technologies
@@ -58,20 +59,20 @@ const About = () => {
           </h4>
 
           <div className="aboutBtn">
-            <button
-              className="resume-btn"
-              onClick={resume}
-              id="resume-button-2"
+            <a
+              href="Kausik_Bhaumik_Resume.pdf"
+              download="Kausik_Bhaumik_Resume.pdf"
+              className="flex"
+              id="resume-link-2"
             >
-              <a
-                href="Kausik_Bhaumik_Resume.pdf"
-                download="Kausik_Bhaumik_Resume.pdf"
-                className="flex"
-                id="resume-link-2"
+              <button
+                className="resume-btn"
+                onClick={resume}
+                id="resume-button-2"
               >
                 Download CV <TbCloudDownload className="icon" />
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>

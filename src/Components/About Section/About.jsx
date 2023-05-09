@@ -5,7 +5,7 @@ import img from "../../Assets/Kausik_image.jpg";
 
 function resume() {
   window.open(
-    "https://drive.google.com/file/d/16KeO14t4SBP6p1ZDksrgGnnCF8WnTxg3/view?usp=sharing",
+    "https://drive.google.com/file/d/1NsOvDJy682h_rN6cX99gJ6apJGkClbEX/view?usp=share_link",
     "_blank"
   );
 }

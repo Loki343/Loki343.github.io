@@ -14,7 +14,6 @@ import kindmeal from "../../Assets/kindmeal.png";
 const data = [
   {
     id: 1,
-    demo: "",
     image: indiwebmall,
     liveLink: "https://indiwebmall-nine.vercel.app/",
     github: "https://github.com/Loki343/PaytmMall.com-Clone",
@@ -27,7 +26,6 @@ const data = [
   },
   {
     id: 2,
-    demo: "",
     image: macmatch,
     liveLink: "https://murky-pan-2202.vercel.app/",
     github: "https://github.com/Loki343/Apple.com-Clone",
@@ -40,7 +38,6 @@ const data = [
   },
   {
     id: 3,
-    demo: "",
     image: unicorn,
     liveLink: "https://testy-throne-7976.vercel.app/",
     github: "https://github.com/Loki343/BurBerry-Clone",
@@ -49,10 +46,10 @@ const data = [
     tech_1: "ReactJS",
     tech_2: "Redux",
     tech_3: "ChakraUI",
+    tech_4: "DOM",
   },
   {
     id: 4,
-    demo: "",
     image: flipzone,
     liveLink: "https://flip-zon-ecom.vercel.app/",
     github: "https://github.com/Loki343/FlipZone-Ecom",
@@ -65,7 +62,6 @@ const data = [
   },
   {
     id: 5,
-    demo: "",
     image: nykaa,
     liveLink: "https://lustrous-entremet-5aa626.netlify.app/",
     github: "https://github.com/Loki343/Nykaa.com-Clone",
@@ -74,10 +70,10 @@ const data = [
     tech_1: "ReactJS",
     tech_2: "VanillaJS",
     tech_3: "ChakraUI",
+    tech_4: "DOM",
   },
   {
     id: 6,
-    demo: "",
     image: kindmeal,
     liveLink: "https://arrogant-beef-5673.vercel.app/",
     github: "https://github.com/Loki343/Kindmeal.my-Clone",
@@ -117,16 +113,15 @@ const Projects = () => {
             tech_2,
             tech_3,
             tech_4,
-            demo,
           }) => {
             return (
               <div key={id} className="singleProject project-card">
                 <div className="externalLinks flex">
-                  <div className="videoIcon">
+                  {/* <div className="videoIcon">
                     <a href={demo} rel="noreferrer" target="_blank">
                       <AiOutlineVideoCamera className="icon" />
                     </a>
-                  </div>
+                  </div> */}
                   <div className="videoIcon project-deployed-link">
                     <a
                       className="project-deployed-link"

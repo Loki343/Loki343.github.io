@@ -83,7 +83,7 @@ const Navbar = () => {
           >
             <button
               className="btn nav-link resume"
-              onClick={resume}
+              // onClick={resume}
               id="resume-button-1"
             >
               Resume

@@ -67,7 +67,7 @@ const About = () => {
             >
               <button
                 className="resume-btn"
-                onClick={resume}
+                // onClick={resume}
                 id="resume-button-2"
               >
                 Download CV <TbCloudDownload className="icon" />

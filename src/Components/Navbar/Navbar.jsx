@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
+import myresume from "../../Assets/Kausik_Bhaumik_Resume.pdf"
 
 function resume() {
   window.open(
@@ -76,19 +77,32 @@ const Navbar = () => {
               <span className="headerNumber">5.</span>Contact
             </a>
           </li>
-          <a
-            href="Kausik_Bhaumik_Resume.pdf"
-            download="Kausik_Bhaumik_Resume.pdf"
-            id="resume-link-1"
+          {/* <button
+            className="btn"
+            onClick={resume}
+            id="resume-button-1"
           >
-            <button
-              className="btn nav-link resume"
-              onClick={resume}
-              id="resume-button-1"
+            <a
+              href="Kausik_Bhaumik_Resume.pdf"
+              download="Kausik_Bhaumik_Resume.pdf"
+              id="resume-link-1"
+              className="nav-link resume flex"
+              target="_blank"
             >
               Resume
-            </button>
-          </a>
+            </a>
+          </button> */}
+          <button id="resume-button-1" className="btn" onClick={resume}>
+            <a
+              href={myresume}
+              download="Kausik_Bhaumik_Resume"
+              target="blank"
+              className={`nav-link resume flex`}
+              id="resume-link-1"
+            >
+              Resume
+            </a>
+          </button>
         </ul>
         <div onClick={removeNavBar} className="closeNavBar">
           <AiFillCloseCircle className="icon" />

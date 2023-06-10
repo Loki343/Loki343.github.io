@@ -124,7 +124,7 @@
     color: var(--primaryColor);
   }
 }
-@media screen and (min-width: 960px) {
+/* @media screen and (min-width: 960px) {
   .header {
     padding: 2.5rem 5rem;
   }
@@ -134,4 +134,9 @@
   .header .navBar .navLists .navItem {
     padding: 0 2rem;
   }
-} /*# sourceMappingURL=navbar.css.map */
+}  */
+
+
+
+
+/*# sourceMappingURL=navbar.css.map */

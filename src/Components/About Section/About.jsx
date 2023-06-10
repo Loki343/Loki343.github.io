@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import { TbCloudDownload } from "react-icons/tb";
 import img from "../../Assets/Kausik_image.jpg";
 
 function resume() {
@@ -31,13 +30,14 @@ const About = () => {
 
         <div className="textSection">
           <h4 id="user-detail-intro">
-            I'm a success-driven, determind fullstack web developer. I have
-            experience using HTML5 CSS3 Javascript ReactJS NodeJS ExpressJS
-            MongoDB to build accessible component-based web pages and systems.{" "}
+            I'm a success-driven, determined full-stack web developer. I have
+            experience using HTML5, CSS3, Javascript, ReactJS, NodeJS, ExpressJS
+            and MongoDB to build accessible component-based web pages and
+            systems.
             <br />
             Ability to deliver quality results while collaborating in rapidly
-            changing work environments and team compositions. <br /> A
-            passioniate person willing to learn more technologies
+            changing work environments and team compositions. <br />A passionate
+            person and willing to learn more technologies.
             <br />
             <br />
             <h3>
@@ -59,20 +59,35 @@ const About = () => {
           </h4>
 
           <div className="aboutBtn">
-            <a
-              href="Kausik_Bhaumik_Resume.pdf"
-              download="Kausik_Bhaumik_Resume.pdf"
-              className="flex"
-              id="resume-link-2"
+            {/* <button
+              className="resume-btn"
+              onClick={resume}
+              id="resume-button-2"
             >
-              <button
-                className="resume-btn"
-                onClick={resume}
-                id="resume-button-2"
+              <a
+                href="Kausik_Bhaumik_Resume.pdf"
+                download="Kausik_Bhaumik_Resume.pdf"
+                className="resume flex"
+                id="resume-link-2"
               >
                 Download CV <TbCloudDownload className="icon" />
-              </button>
-            </a>
+              </a>
+            </button> */}
+            <button
+              id="resume-button-2"
+              className="resume-btn"
+              onClick={resume}
+            >
+              <a
+                href={"Kausik_Bhaumik_Resume.pdf"}
+                download="Kausik_Bhaumik_Resume.pdf"
+                target="blank"
+                className={`nav-link resume flex`}
+                id="resume-link-2"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>

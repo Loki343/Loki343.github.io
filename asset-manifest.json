@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.195ccfd5.css",
-    "main.js": "/static/js/main.eaed00d9.js",
+    "main.js": "/static/js/main.cff5594b.js",
     "static/media/Kausik_image.jpg": "/static/media/Kausik_image.5877c1a0fd50f3808406.jpg",
     "static/media/unicorn.png": "/static/media/unicorn.92e08dc5d3db7da764d3.png",
     "static/media/flipzone.png": "/static/media/flipzone.e783a59f4ec2982dc43d.png",
@@ -12,10 +12,10 @@
     "static/media/Kausik_Bhaumik_Resume.pdf": "/static/media/Kausik_Bhaumik_Resume.bcf6f2623f6852670db7.pdf",
     "index.html": "/index.html",
     "main.195ccfd5.css.map": "/static/css/main.195ccfd5.css.map",
-    "main.eaed00d9.js.map": "/static/js/main.eaed00d9.js.map"
+    "main.cff5594b.js.map": "/static/js/main.cff5594b.js.map"
   },
   "entrypoints": [
     "static/css/main.195ccfd5.css",
-    "static/js/main.eaed00d9.js"
+    "static/js/main.cff5594b.js"
   ]
 }
